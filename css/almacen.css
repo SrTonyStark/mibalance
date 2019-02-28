@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-nov-2018, 18:11:28
+    Author     : stark
+*/
+
+@font-face{
+    font-family: "MadeleinaSans";
+    src: url("../fonts/Madeleina Sans.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "CQMono";
+    src: url("../fonts/CQ Mono.otf") format("opentype");
+}
+
+.btn-login{
+    float:right;
+    margin-left: 300px;
+    color:#22467a
+}
+
+.encabezado{
+    display: inline-block;
+}
+
+.eslogan{
+    float: left;
+    color: #22467a;
+}
+
+.body{
+    background-color: blue;
+    font-family: MadeleinaSans;
+}
+
+.contenido{
+    margin: 0.1em;
+    padding: 1rem;    
+    border-top: 2px solid #22467a ;
+}
+
+@media (max-width: 992px){
+
+}
+
+@media (max-width: 768px){
+    .social a{
+        font-size: 2em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 576px){
+    #logo{
+        width: 75px;
+    }
+}
+
+@media (max-width: 400px){
+    .eslogan{
+        display: none;
+    }
+}
+
+/* Footer */
+
+.foot{
+    margin-bottom: 0;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+}
+.copyrights{
+    margin-top:25px;
+}
+
+footer.container-fluid.text-center.foot {
+    background-color: #22467a ;
+}
+
+.white-txt{
+    color: white;
+}
+
+.foot img{
+    padding-bottom: 1rem;
+    width: 3rem;
+}
+
+.table-diseno{
+    color:white;
+    background-color: #22467a;
+    margin-left: 200px;
+}
+
+.btn-buscar{
+    float: left;
+    margin-left: 10px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.valorabuscar{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+}
+
+.boton-actualizar{
+    border-bottom: 5px solid #22467a;
+}
+
+.boton-cantidad{
+    margin-top: 50px;
+}
+
+.profile-sidebar{
+    border-right: 5px solid #22467a;
+}
+
+.btn-blue { 
+  color: #ffffff; 
+  background-color: #1352D1; 
+  border-color: #012A7A; 
+} 
+ 
+.btn-blue:hover, 
+.btn-blue:focus, 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  color: #ffffff; 
+  background-color: #012A7A; 
+  border-color: #012A7A; 
+} 
+ 
+.btn-blue:active, 
+.btn-blue.active, 
+.open .dropdown-toggle.btn-blue { 
+  background-image: none; 
+} 
+ 
+.btn-blue.disabled, 
+.btn-blue[disabled], 
+fieldset[disabled] .btn-blue, 
+.btn-blue.disabled:hover, 
+.btn-blue[disabled]:hover, 
+fieldset[disabled] .btn-blue:hover, 
+.btn-blue.disabled:focus, 
+.btn-blue[disabled]:focus, 
+fieldset[disabled] .btn-blue:focus, 
+.btn-blue.disabled:active, 
+.btn-blue[disabled]:active, 
+fieldset[disabled] .btn-blue:active, 
+.btn-blue.disabled.active, 
+.btn-blue[disabled].active, 
+fieldset[disabled] .btn-blue.active { 
+  background-color: #1352D1; 
+  border-color: #012A7A; 
+} 
+ 
+.btn-blue .badge { 
+  color: #1352D1; 
+  background-color: #ffffff; 
+}
